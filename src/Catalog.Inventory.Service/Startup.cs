@@ -1,4 +1,5 @@
 using System;
+using System.Net.Http;
 using Catalog.Common.MongoDB;
 using Catalog.Inventory.Service.Clients;
 using Catalog.Inventory.Service.Entities;
@@ -8,6 +9,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using Polly;
 
 namespace Catalog.Inventory.Service
 {
@@ -26,11 +28,13 @@ namespace Catalog.Inventory.Service
             services.AddMongo()
                 .AddMongoRepository<InventoryItem>("inventoryItems");
 
+
             //Add the CatalogAPI as a client
             services.AddHttpClient<CatalogClient>(client => 
             {
                 client.BaseAddress = new Uri("https://localhost:5001");
-            });
+            })
+            .AddPolicyHandler(Policy.TimeoutAsync<HttpResponseMessage>(1)); //Timeout of 1 second for any request to CatalogAPI
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
