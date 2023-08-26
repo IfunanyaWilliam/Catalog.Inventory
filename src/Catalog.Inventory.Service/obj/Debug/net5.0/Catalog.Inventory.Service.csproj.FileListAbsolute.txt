@@ -85,3 +85,11 @@ C:\Users\USER\Documents\Ifunanya\Projects\Catalog.Inventory\src\Catalog.Inventor
 C:\Users\USER\Documents\Ifunanya\Projects\Catalog.Inventory\src\Catalog.Inventory.Service\obj\Debug\net5.0\Catalog.Inventory.Service.pdb
 C:\Users\USER\Documents\Ifunanya\Projects\Catalog.Inventory\src\Catalog.Inventory.Service\obj\Debug\net5.0\Catalog.Inventory.Service.genruntimeconfig.cache
 C:\Users\USER\Documents\Ifunanya\Projects\Catalog.Inventory\src\Catalog.Inventory.Service\obj\Debug\net5.0\ref\Catalog.Inventory.Service.dll
+c:\Users\USER\Documents\Ifunanya\Projects\Catalog.Inventory\src\Catalog.Inventory.Service\bin\Debug\net5.0\Microsoft.Extensions.Http.dll
+c:\Users\USER\Documents\Ifunanya\Projects\Catalog.Inventory\src\Catalog.Inventory.Service\bin\Debug\net5.0\Microsoft.Extensions.Http.Polly.dll
+c:\Users\USER\Documents\Ifunanya\Projects\Catalog.Inventory\src\Catalog.Inventory.Service\bin\Debug\net5.0\Microsoft.Extensions.Logging.dll
+c:\Users\USER\Documents\Ifunanya\Projects\Catalog.Inventory\src\Catalog.Inventory.Service\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+c:\Users\USER\Documents\Ifunanya\Projects\Catalog.Inventory\src\Catalog.Inventory.Service\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+c:\Users\USER\Documents\Ifunanya\Projects\Catalog.Inventory\src\Catalog.Inventory.Service\bin\Debug\net5.0\Polly.dll
+c:\Users\USER\Documents\Ifunanya\Projects\Catalog.Inventory\src\Catalog.Inventory.Service\bin\Debug\net5.0\Polly.Extensions.Http.dll
+c:\Users\USER\Documents\Ifunanya\Projects\Catalog.Inventory\src\Catalog.Inventory.Service\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
